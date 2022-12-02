@@ -26,7 +26,7 @@ export class PokemonComponent {
         this.pokemonService.getMoreData(result.name)
           .subscribe((uniqresponse: any) => {
             this.pokemons.push(uniqresponse);
-            console.log(this.pokemons);
+
          });
 
     });
