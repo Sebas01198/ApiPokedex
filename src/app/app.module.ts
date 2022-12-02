@@ -7,14 +7,16 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 import { HeaderComponent } from './header/header.component';
 import { VistaOneComponent } from './vista-one/vista-one.component';
 import {HttpClientModule} from '@angular/common/http';
-import {NgxPaginationModule} from 'ngx-pagination'
+import {NgxPaginationModule} from 'ngx-pagination';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonComponent,
     HeaderComponent,
-    VistaOneComponent
+    VistaOneComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

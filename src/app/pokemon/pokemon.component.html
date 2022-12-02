@@ -1,4 +1,4 @@
-
+<app-header></app-header>
 <div class="pokemon-grid">
   <div class="box" *ngFor="let pokemon of pokemons | paginate: {itemsPerPage: 10, currentPage:page, totalItems:totalPokemons}">
     <img [src]="pokemon.sprites.front_default" alt="pokemon">
